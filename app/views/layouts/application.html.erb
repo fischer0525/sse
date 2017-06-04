@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+
+  </head>
+
+  <body>
+    <header class="main-header">
+      <ul class="main-nav">
+        <li><a href="#">portfolio</a></li>
+        <li><a href="#">services</a></li>
+        <li><a href="#">about us</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+    </header>
+    <%= yield %>
+
+  </body>
+</html>
